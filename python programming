@@ -1,0 +1,17 @@
+for printing area of circle
+
+rad=int(input("enter the radius of circle: "))
+pi=3.14
+area=pi*rad*rad
+print(area)
+
+printing extension of file name
+
+code:
+filename=input("enter the filename: ")
+f_extns=filename.split(".")
+print("the extension of file is : " + repr(f_extns[-1]))
+
+
+              
+              
